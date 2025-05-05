@@ -1,0 +1,19 @@
+Instructions:
+
+Open Project4_FINAL_INDIVIDUAL_INTIAL.m
+Open Project4_FINAL_INDIVIDUAL_script.m
+Open Proj4_FINAL_INDIVIDUAL.slx
+
+Run Project4_FINAL_INDIVIDUAL_INTIAL.m
+Run Project4_FINAL_INDIVIDUAL_script.m
+
+Overview:
+
+In project 4 task 3, the main objective outlined through the deliverables was establishing a height as a function of x around the original track. This track now experienced an increase on the straight 
+segment from 0 to 10 meters and a declining segment on the straight track from 10 to 0 meters. I adjusted the final team-developed project 4 model to these deliverables. I achieved a final script run 
+time of 95.9803 seconds and a total of 13 loops completed which is less than the 17 loops originally. I was able to incorporate this height adjustment by adjusting strictly the Simulink model with a function called height. 
+This function calculates the height of the track using the following equation from the project 4 individual deliverables: height = 10 * exp((X - 450) / 50) ./ (1 + exp((X - 450) / 50));. Furthermore, the 
+height is imputed into the Long Vehicle Dynamics to calculate the final output acceleration and velocity as a function of height. I believe the reduced number of loops from the original 17 makes sense 
+because more energy is typically spent climbing, and a reduced efficiency in acceleration. 
+
+Thank you again for a great and final semester!
